@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+{% extends "kis_login_base.html" %}
+{% load static %}
+<html lang="en">
+
+<body>
+{% block header %}
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-7 d-none d-md-block">
+                <div class="kis-login-img-bg-container">
+                    <img src="{% static 'keepitshortcss/keep_it_short_images/Asset 10 2.png' %}" />
+                    <img src="{% static 'keepitshortcss/keep_it_short_images/pngwing 1.png' %}" class="kis-login-cup-img" />
+                </div>
+            </div>
+            <div class="col-12 col-md-5">
+                <div class="kis-login-form-bg-container">
+                    <h1 class="kis-login-form-heading">Login</h1>
+                    <p class="kis-login-form-description">Welcome back! Please login to your account.</p>
+                    <form class="kis-login-form-container">
+                        <div class="row">
+                            <div class="col-12 col-md-12">
+                                <div class="kis-login-input-container">
+                                    <label for="mail" class="kis-login-label-text">E-mail</label>
+                                    <input type="text" id="mail" name="mail" class="kis-login-input-fields"/>
+                                    <p id="mailErrorMsg" class="input-error-msg"></p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-12">
+                                <div class="kis-login-input-container">
+                                    <label for="password" class="kis-login-label-text">Password</label>
+                                    <input type="password" id="password" name="password" class="kis-login-input-fields"/>
+                                    <div class="toggle-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black" class="bi bi-eye" viewBox="0 0 16 16">
+                                          <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13 13 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5s3.879 1.168 5.168 2.457A13 13 0 0 1 14.828 8q-.086.13-.195.288c-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5s-3.879-1.168-5.168-2.457A13 13 0 0 1 1.172 8z"/>
+                                          <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"/>
+                                        </svg>
+                                    </div>
+                                    <p id="passwordErrorMsg" class="input-error-msg"></p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <a href="#">Forgot Password</a>
+                        <div class="kis-login-checkbox-div">
+                            <input type="checkbox" id="kis-checkbox" class="kis-login-checkbox" />
+                            <label for="kis-checkbox">I agree to the<a href="{% url 'corporate:terms' %}"> Terms </a>and<a href="{% url 'corporate:Privacy' %}"> Privacy Policy</a> </label>
+                        </div>
+                        <button class="kis-login-btn">Login</button>
+                        <p class="kis-login-signup-text">Don’t have an Account? <a href="{% url 'keepitshort:kis_institute_register' %}">Sign up here </a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--scripts-->
+<script src="{% static 'keepitshortcss/js/kis_login.js' %}"></script>
+{% endblock %}
+</body>
+</html>

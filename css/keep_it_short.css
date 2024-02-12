@@ -1,0 +1,458 @@
+/*....................base.......................*/
+
+#kis-nav-bg-container{width:100%;height:75px;padding:15px 40px;box-shadow: 1px 1px 10px 1px #000;}
+.kis-navItem-container{display: flex;align-items: center;}
+.navItem{font-size: 16px;font-weight: 600;color: #343439;text-decoration: none;margin-left: 41px;font-family: inter;letter-spacing: .1rem;}
+.kis-navItem-btn{font-size: 16px;font-weight: 600;color: #343439;text-decoration: none;margin-left: 41px;font-family: inherit;border: 1px solid #E64A19;padding: 19px;border-radius: 20px;height: 40px;display: flex;align-items: center;letter-spacing: .1rem;}
+#kis-bgColor-btn{background-color: #E64A19;color: #fff;}
+.kis-base-padding-top-container{padding-top:75px;}
+
+@media (max-width: 767px){
+    #kis-nav-bg-container{padding: 10px 10px;}
+    .kis-logo{height: 40px;width: 40px;margin-top: 4px;}
+    .kis-logo-name-container{margin-left: 7px;}
+    .kis-logo-name{font-size: 14px;}
+    .kis-logo-name-description{font-size: 9px;}
+    .kis-navItem-container{display: flex;flex-direction: column;justify-content: flex-start;align-items: flex-start; padding-top:5px;}
+    .navItem{font-weight: 400; font-size: 18px;}
+    .kis-navItem-btn{font-size: 18px;font-weight: 400;border-width: 0px;padding: 0px; height:20px;}
+    #kis-bgColor-btn{background-color: transparent;color: #000;}
+    .kis-base-padding-top-container{padding-top:65px;}
+}
+
+.kis-footer-bg-container{background: var(--Linear, linear-gradient(90deg, #040607 0.04%, #152627 50.73%, #040607 99.87%));padding: 30px 100px;display: flex;justify-content:space-between;align-items:center;border-top:1px solid gray;width: 100%;}
+.kis-footer-right-container{width:70%;}
+.kis-footer-options-container{display:flex;align-items:center;margin-top:50px;margin-bottom:30px;flex-wrap:wrap;}
+.kis-footer-options{color: var(--White, #FFF);font-family: Inter;font-feature-settings: 'liga' off;font-size: 16px;font-style: normal;font-weight: 400;line-height: 24px;margin-right:35px;text-decoration:none;}
+.kis-footer-copyright{color: rgba(209, 213, 219, 0.50);font-feature-settings: 'liga' off;font-family: Inter;font-size: 14px;font-style: normal;font-weight: 400;line-height: 20px;}
+.kis-footer-left-container{width:30%;display: flex;justify-content: flex-end;align-items:flex-end;}
+.kis-footer-icons-bg-container{display: flex;flex-direction: column;align-items:center;width:50%;}
+.kis-footer-icons-text{color: var(--Neutral-300, #D1D5DB);font-feature-settings: 'liga' off;font-family: Inter;font-size: 18px;font-style: normal;font-weight: 500;line-height: 28px;margin-bottom:20px;}
+.kis-footer-icons-container{display:flex;justify-content:space-between;align-items: center;width:50%;}
+.kis-jury-social-media-icons-div{border: 1px solid gray;margin-right: 17px;border-radius: 100%;height: 45px;width: 45px;display: flex;align-items: center;justify-content: center;text-decoration: none;}
+
+@media (max-width: 767px){
+    .kis-footer-bg-container{padding:10px 15px;flex-direction:column;}
+    .kis-footer-right-container{width:100%;}
+    .kis-footer-options{margin-bottom:15px; margin-right:20px;}
+    .kis-footer-left-container{width:100%;display:flex;justify-content:center;align-items:center;margin-bottom: 22px;}
+    .kis-footer-options-container{justify-content:center;}
+    .kis-logo-container{width:100%;display:flex;align-items:center;justify-content:center;}
+}
+
+/*.................base...................*/
+
+
+
+.keep-it-short-body{height:auto;margin:0px;}
+.keep-it-short-navbar{width:100%;height:73px;background:#FFF;padding:10px 70px;}
+.banner-bg-container{width: 100%;height: 594px;padding:0px 80px;}
+.banner-blur-logo{width: 236px;height: 224px;}
+.keep-it-short-logo {width: 230px;height: 170px;margin-top: 14px;margin-left: -38px;}
+.keep-it-short-trophy-logo{width: 186px;height: 248px;position: relative;left: 260%;bottom: -33%;}
+.banner-text-container{width:500px;height:auto;}
+.banner-text-container h1{color: #FFC700;font-feature-settings: 'liga' off;font-family: inherit;font-size: 48px;font-style: normal;font-weight: 700;line-height: 1.4;letter-spacing: -1.2px;}
+.banner-text-container h3{color: var(--ffffff, #FFF);font-feature-settings: 'liga' off;font-family: 'Inter';font-size: 24px;font-style: normal;font-weight: 500;line-height: 1.3;}
+.banner-text-container p{color: var(--ffffff, #FFF);font-feature-settings: 'liga' off;font-family: 'Inter';font-size: 18px;font-style: normal;font-weight: 700;line-height: 1.5;margin-top:20px;}
+.banner-text-container button{padding: 20px 50px;border-radius: 40px;background: #FF5E3A;box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);color: #FFF;font-family: 'Lato';font-size: 20px;font-weight: 700;line-height: 18px;border-width:0px;margin-top:30px;}
+
+.short-film-content-bg-container{display: flex;flex-direction: column;align-items: center;padding: 56px 200px;width: 100%;height: auto;}
+.short-film-content-text{color: var(--Dark-Mode, #343333);text-align: center;font-feature-settings: 'liga' off;font-family: 'Inter';font-size: 18px;font-style: normal;font-weight: 400;line-height: 28px;margin-bottom:25px;}
+.short-film-content-headings{color: #6EAB7D;text-align: center;font-feature-settings: 'liga' off;font-family: inherit;font-size: 48px;font-style: normal;font-weight: 700;letter-spacing: -1.2px;margin-bottom:60px;margin-top:75px;}
+.short-film-contest-container{display:flex;align-items:center;}
+.short-film-contest-divs{width: 100%;min-height: 250px;flex-shrink: 0;border-radius: 10px;background: #FFF;box-shadow: 0px 0px 12.5px -3px rgba(0, 0, 0, 0.25);display: flex;flex-direction: column;align-items: center;padding: 20px 15px;}
+.short-film-contest-icon-divs{width: 63px;height: 63px;background: #ff5e3a63;border-radius: 100px;display: flex;align-items: center;justify-content: center;padding: 2px;margin-bottom:20px;}
+.short-film-contest-divs h1{color: var(--Neutral-700, #374151);text-align: center;font-feature-settings: 'liga' off;font-family: 'Inter';font-size: 22px;font-style: normal;font-weight: 700;line-height: 30px;}
+.short-film-contest-divs p{color: var(--Neutral-700, #374151);font-feature-settings: 'liga' off;font-family: 'Inter';font-size: 14px;font-style: normal;font-weight: 400;text-align:center;}
+.short-film-contest-img-div{width:100%;height:auto;border: 7px solid #808080d1;border-radius: 27px;}
+.short-film-contest-img{height:100%;width:100%;border-radius:20px;}
+.short-film-contest-img-text-container{display:flex;flex-direction:column;justify-content:center;width:100%;height:auto;margin-top:25px;}
+.short-film-contest-img-each-text-div{display:flex;align-items:center;margin-left: 80px;margin-bottom: 30px }
+.short-film-contest-img-each-text-div h1{text-align: center;font-feature-settings: 'liga' off;-webkit-text-stroke-width: 5px;-webkit-text-stroke-color: #6EAB7D;font-family: 'Inter';font-size: 80px;font-style: normal;font-weight: 700;line-height: 60px;letter-spacing: -2px;margin-right:20px;}
+.short-film-contest-img-each-text-div p{color: var(--Neutral-700, #374151);font-feature-settings: 'liga' off;font-family: 'Inter';font-size: 20px;font-style: normal;font-weight: 400;line-height: 30px;}
+
+.short-film-join-back-bg-container{position: absolute;width:100%;height:auto;background: var(--Linear, linear-gradient(90deg, #040607 0.04%, #152627 50.73%, #040607 99.87%));padding-top: 85px;}
+.short-film-blue-icon-div{opacity: 0.2;margin-left: -150px;}
+.short-film-yellow-icon-div{opacity: 0.3;margin-top: 136px;margin-left: -30px;}
+.short-film-green-icon-div{height: 412px;width: 470px;background: #00B698;border-top-left-radius: 573px;opacity: 0.3;margin-top:480px;}
+
+
+.short-film-join-front-bg-container{position: relative;display: flex;flex-direction: column;align-items: center;width: 100%;height: auto;}
+.short-film-join-front-container{padding: 56px 200px;}
+.short-film-join-text{margin-bottom: 30px;color: #FFF;text-align: center;font-feature-settings: 'liga' off;font-family: 'Inter';font-size: 20px;font-style: normal;font-weight: 400;line-height: 30px;margin-top:20px;}
+.short-film-join-btn{height: 50px;width: 160px;background: #FF5E3A;border-width: 0px;border-radius: 100px;color: #FFF;font-family: 'Lato';font-size: 17px;font-style: normal;font-weight: 600;line-height: 18px;}
+.short-film-div-text{border-radius: 25px;background: #6EAB7D;margin-top: 70px;margin-bottom: 30px;height: auto;width: 100%;display: flex;align-items: center;justify-content: center;padding: 20px;}
+.short-film-div-text p{color: #FFF;text-align: center;font-feature-settings: 'liga' off;font-family: 'Inter';font-size: 32px;font-style: normal;font-weight: 600;line-height: 45px;}
+
+.short-film-footer-bg-container{background: var(--Linear, linear-gradient(90deg, #040607 0.04%, #152627 50.73%, #040607 99.87%));height:auto;width:100%;padding: 20px 100px;display:flex;align-items:center;}
+.short-film-footer-left-container{width:65%;height:auto;}
+.short-film-footer-options-div{display:flex;align-items:center;margin-top:50px;margin-bottom:24px;flex-wrap:wrap;}
+.short-film-footer-options{text-decoration:none;margin-right:15px;color: var(--White, #FFF);font-feature-settings: 'liga' off;font-family: 'Inter';font-size: 16px;font-style: normal;font-weight: 400;line-height: 24px;}
+.short-film-footer-copyright-text{color: rgba(209, 213, 219, 0.50);font-feature-settings: 'liga' off;font-family: 'Inter';font-size: 14px;font-style: normal;font-weight: 400;line-height: 20px;}
+.short-film-footer-right-container{width:35%;display:flex;flex-direction:column;align-items:center;justify-content:center;}
+.short-film-footer-icons-text{color: var(--Neutral-300, #D1D5DB);font-feature-settings: 'liga' off;font-family: 'Inter';font-size: 18px;font-style: normal;font-weight: 500;line-height: 28px;}
+
+
+
+@media (max-width:767px){
+    .keep-it-short-navbar{padding: 10px 6px;}
+    .banner-bg-container{padding: 15px 15px;}
+    .banner-text-container{width:100%}
+    .banner-text-container h1{font-size:30px;text-align:center;}
+    .banner-text-container h3{font-size:20px;text-align:center;}
+    .banner-text-container p{font-size:15px;text-align:center;margin-top:12px;}
+    .banner-text-container button{margin-top: 20px;margin-left: 68px;padding: 18px 45px;font-size: 20px;}
+    .banner-blur-logo{margin-left:73px;margin-bottom: 18px;margin-top: 15px;}
+    .short-film-content-bg-container{padding:10px 15px;}
+    .short-film-content-text{font-size:14px;;line-height:24px;}
+    .short-film-content-headings{font-size:30px;margin-top:35px;margin-bottom:30px;}
+    .short-film-contest-divs{margin-bottom:20px;}
+    .short-film-contest-img-each-text-div{margin-left:0px;margin-bottom:10px;}
+    .short-film-contest-img-each-text-div h1{font-size:55px;-webkit-text-stroke-width: 3px;}
+    .short-film-contest-img-each-text-div p{font-size:16px;line-height:22px;}
+    .short-film-contest-img-text-container{padding-top:8px;padding-bottom:42px;}
+
+
+    .short-film-join-front-bg-container{background: var(--Linear, linear-gradient(90deg, #040607 0.04%, #152627 50.73%, #040607 99.87%));}
+    .short-film-join-front-container{padding: 10px 10px;}
+    .short-film-div-text p{font-size:13px;line-height:20px;margin-bottom:0px;}
+    .short-film-join-text{font-size:14px;line-height:20px;}
+
+    .short-film-footer-bg-container{padding:10px 10px;flex-direction:column;border-top: 1px solid #757575;padding-top: 30px;}
+    .short-film-footer-left-container{width:100%;}
+    .short-film-footer-options-div{margin-top:30px;justify-content: center;}
+}
+
+
+/*.................kis_login_signup..................*/
+
+.kis-login-body{min-height:100vh;margin:0px;background:var(--Linear, linear-gradient(90deg, #040607 0.04%, #152627 50.73%, #040607 99.87%));height:auto;width:100%;}
+.kis-login-navbar{height:73px;width:100%;background:#FFF;margin-bottom:20px;padding:15px 40px;box-shadow: 10px 10px 10px #333;}
+
+.kis-login-back-main-bg-container{height: 100%;width:100%;}
+.kis-vector-images-div{height:auto;width:100%;display:flex;justify-content:space-between;}
+.kis-blue-vector-img{position:absolute;top:0;left:-50px;width:464px;height:464px;}
+.kis-yellow-vector-img{position:fixed;bottom:-80px;right:-70px;width:495px;height:495px;}
+
+.kis-login-front-main-bg-container{min-height:100vh;width:100%;background:transparent;top:0;padding-top:105px;padding-bottom:60px;}
+
+.kis-login-img-bg-container{height:100%;width:100%;}
+.kis-login-cup-img{position:absolute;left:70px;bottom:70px;}
+.kis-signup-cup-img{position:absolute;left:70px;bottom:280px;}
+
+.kis-login-form-bg-container{height:100%;width:90%;background: #FFF;padding: 20px 30px;border-radius:10px;}
+.kis-login-form-heading{font-family: Inter;font-size: 36px;font-weight: 700;line-height: 44px;letter-spacing: 0em;text-align: left;color: #FF5E3A;}
+.kis-login-form-description{font-family: inherit;font-size: 18px;font-weight: 600;line-height: 22px;letter-spacing: 0em;text-align: left;color: #64748B;margin-bottom:45px;}
+.kis-login-input-container{display:flex;flex-direction:column;margin-bottom:30px;}
+.kis-login-label-text{font-family: Inter;font-size: 14px;font-weight: 600;line-height: 17px;letter-spacing: 0em;text-align: left;margin-bottom:0px;}
+.kis-login-input-fields{border: 1.5px solid #64748B;height: 45px;border-radius: 7px;color: #64748B;padding: 0px 12px;font-family: 'Inter';font-weight: 400;letter-spacing: 0.4px;}
+.kis-login-form-container a{font-family: Inter;font-size: 12px;font-weight: 700;line-height: 15px;letter-spacing: 0em;text-align: right;color: #FF5E3A;text-decoration:none;}
+.kis-login-checkbox-div{display:flex;align-items:center;margin-top:20px;margin-bottom:30px;}
+.kis-login-checkbox-div label{margin-left:10px;margin-top:7px;font-family: Inter;font-size: 14px;font-weight: 400;line-height: 17px;letter-spacing: 0em;text-align: left;}
+.kis-login-checkbox-div a{text-decoration:none;}
+.kis-login-btn{width: 100%;height: 45px;border-width: 0px;border-radius: 7px;background: #FF5E3A;color: #FFF;font-size: 20px;font-weight: 600;letter-spacing: 0.4px;margin-bottom:20px;}
+.kis-login-signup-text{font-family: Inter;font-size: 14px;font-weight: 400;line-height: 17px;letter-spacing: 0em;text-align: center;color:#000;}
+.input-error-msg{font-family: Inter;font-size: 14px;font-weight: 300;line-height: 17px;letter-spacing: 0em;text-align: left;color: #FF5E3A;}
+.kis-input-border-color-active{border-color:#FF5E3A;}
+.toggle-icon{position: absolute;transform: translateY(100%);right: 24px;cursor: pointer;}
+
+@media (max-width: 767px){
+    .kis-login-form-bg-container{width:110%;margin-left:2px;}
+    .kis-login-navbar{padding:10px;}
+    .kis-login-form-heading {font-size:30px;}
+}
+
+
+
+
+
+/*.................kis_login_signup..................*/
+
+/*.................kis_teams_base..................*/
+.kis-bg-main-container{font-family: "Montserrat";background-color: #fff;min-height: 100vh;margin:0px;display:flex;width:100%;}
+.kis-left-bg-container{min-height:100vh;width:22%;flex-shrink:0;background: var(--Linear, linear-gradient(90deg, #040607 0.04%, #152627 50.73%, #040607 99.87%));backdrop-filter: blur(20px);padding: 20px 35px;}
+
+.kis-logo{height: 45px;width: 45px;margin-top:-5px;}
+.kis-logo-name-container{margin-left: 0px;}
+.kis-logo-name{font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif;color: #6eab7d;font-size: 14px;letter-spacing: .2rem;text-transform: uppercase;font-weight: 700;line-height: 1.3;margin-bottom: 3px;}
+.kis-logo-name-description{font-weight: 400;line-height: 1.5;color: #515365;font-size: 8px;letter-spacing: .2rem;margin-top: 0px;margin-bottom: 0px;}
+
+.kis-left-options-container{height:70vh;margin-top:35px;width:100%;display: flex;flex-direction: column;justify-content: space-between;align-items: flex-start;}
+.kis-left-options-div{display:flex;flex-direction:column;width:100%}
+.kis-left-each-option-div{display:flex;align-items:center;margin-bottom: 10px;width: 90%;padding-left: 25px;border-radius:10px;}
+.kis-left-each-option-text{color: #bdbdbd;font-family: Montserrat;font-size: 14px;font-style: normal;font-weight: 500;line-height: 12px;letter-spacing: 0.14px;margin-left: 10px;margin-top: 14px;}
+.kis-left-each-option-text-div{height: 20px;width:20px;}
+
+.kis-right-bg-container{min-height:100vh;width:78%;}
+.kis-bg-color-active{background-color:#FF5E3A;}
+.kis-text-color-active{color:#fff};
+.kis-profile-bg-container{width:100%;height:10vh;display:flex;justify-content:flex-end;padding:8px 30px;}
+
+
+/*.kis-profile-container{display:flex;align-items:center;justify-content:flex-end;margin-right:15px;}
+.kis-profile-img-div{height:30px;width:30px;border-radius:100px;}
+.kis-profile-img{height:100%;width:100%;border-radius:100px;}
+.kis-profile-greeting-text{color: #000;font-family: Inter;font-size: 16px;font-style: normal;font-weight: 600;line-height: 15px;margin-top: 15px;margin-left: 7px;}
+.kis-profile-name{color:var(--ff-5-e-3-a, #FF5E3A);}*/
+
+/*.................kis_teams_base..................*/
+
+/*................kis_institute_details....................*/
+.kis-institute-details-form-container{box-shadow: 1px 1px 10px 1px #000;width:100%;height:auto;padding: 30px 15px;margin-top:10px;margin-bottom:10px;border-radius:15px;}
+.kis-institute-details-instruction-div{padding: 20px 10px;}
+.kis-institute-details-instruction-div h5{font-family: 'Inter';font-size: 16px;font-weight: 500;line-height: 1.2;margin-top: 10px;letter-spacing: 0.4px;color: #3d3535;}
+.kis-institute-details-instruction-div h1{font-family: 'Inter';color: black;font-weight: 700;font-size: 19px;text-decoration: underline;text-transform: uppercase;margin-top: 30px;margin-bottom: 10px;}
+.kis-institute-details-instruction-div p{font-family: 'Inter';color: black;font-weight: 400;font-size: 16px;margin-bottom: 15px;}
+/*................kis_institute_details....................*/
+
+/*.................kis_teams_dashboard..................*/
+.kis-content-main-bg-container{width: 100%;min-height: 90vh;background: #FFF;box-shadow: 0px 0px 10px 0px #E0E0E0;border-top-right-radius: 10px;border-top-left-radius: 10px;padding: 10px 25px;}
+.kis-content-top-text-div{width:100%;height:auto;padding:0px 0px;display:flex;justify-content:space-between;align-items:center;border-bottom: 1px solid #cbd7d9;padding-bottom: 12px;}
+.kis-content-top-text{color: #0A0A1F;font-family: Montserrat;font-size: 16px;font-style: normal;font-weight: 700;line-height: normal;letter-spacing: 0.32px;}
+.kis-content-top-btn{background-color:#FF5E3A;border-width:0px;width: 130px;height: 30px;color: #FFF;text-align: center;font-family: Montserrat;font-size: 14px;font-style: normal;font-weight: 600;border-radius:20px;}
+.kis-content-main-text-bg-container{width:100%;height:auto;padding:0px 0px;display:flex;justify-content:space-between;align-items:center;margin-top:14px;margin-bottom:20px;}
+.kis-content-headings-container{display:flex;align-items:center;}
+.kis-content-headings-btn{color: #000;font-family: Montserrat;font-size: 16px;font-style: normal;font-weight: 500;line-height: normal;letter-spacing: 0.32px;margin-right:20px;border-width: 0px;background: transparent;}
+.kis-content-headings-btn-active{color:#FF5E3A;text-decoration: underline;text-decoration-thickness: 2px;}
+.kis-content-scroll-container{height:72vh;width:100%;overflow:auto;}
+.kis-content-scroll-container::-webkit-scrollbar {display: none;}
+
+.kis-content-text-scroll-container{height:95vh;width:100%;overflow:auto;}
+.kis-content-text-scroll-container::-webkit-scrollbar {display: none;}
+
+.kis-each-content-div{display:flex;justify-content:space-between;align-items:center;width:100%;height:auto;margin-bottom:20px;}
+.kis-each-content-img-div{height:100px;width:100px;margin-right:20px;}
+.kis-each-content-img{height:100%;width:100%;border-radius:10px;}
+.kis-each-content-text-div{display:flex;flex-direction:column;width:300px;margin-right:130px;}
+.kis-each-content-text-head{color: #343333;font-family: Inter;font-size: 18px;font-style: normal;font-weight: 600;line-height: 130%;flex-shrink:0;opacity:0.7;}
+.kis-each-content-text-sub-head{color: #000;font-family: Montserrat;font-size: 11px;font-weight: 600;line-height: normal;margin-bottom:15px;}
+.kis-each-content-description{color: var(--Dark-Mode, #343333);font-family: Inter;font-size: 14px;font-style: normal;font-weight: 400;line-height: 130%;}
+.kis-each-content-buttons {display:flex;}
+.kis-each-content-edit-div{display:flex;align-items:center;margin-right:35px;}
+.kis-each-content-edit-text{color: var(--000000, #000);text-align: center;font-family: Montserrat;font-size: 14px;font-style: normal;font-weight: 500;line-height: normal;margin-left:5px;text-decoration:none}
+.kis-each-content-buttons button{height: 30px;text-decoration: none;width: 130px;background:#00BCD4;border-width:0px;color:#fff;border-radius: 100px;font-family: 'Inter';font-weight: 500;font-size: 17px;}
+.kis-empty-content-text{font-family: 'Inter';font-size: 30px;text-align: center;color: #000;}
+
+.kis-content-scroll-container{height:72vh;width:100%;overflow:auto;}
+.kis-content-scroll-container::-webkit-scrollbar {display: none;}
+
+.kis-content-main-text-bg-container{width:100%;height:auto;padding:0px 0px;display:flex;justify-content:space-between;align-items:center;margin-top:14px;margin-bottom:20px;}
+.kis-content-headings-container{display:flex;align-items:center;}
+.kis-content-headings-btn{color: #000;font-family: Montserrat;font-size: 16px;font-style: normal;font-weight: 500;line-height: normal;letter-spacing: 0.32px;margin-right:20px;border-width: 0px;background: transparent;}
+.kis-content-headings-btn-active{color:#FF5E3A;text-decoration: underline;text-decoration-thickness: 2px;}
+
+.kis-team-empty-text-container{padding:70px 100px;}
+.kis-team-empty-text-container h1{font-family: 'Inter';font-size: 25px;margin-bottom: 12px;color: #000;}
+.kis-team-empty-text-container p{font-family: 'Inter';font-size: 18px;font-weight: 400;color: #000;margin-bottom:40px;}
+
+/*.................kis_teams_dashboard..................*/
+.kis-account-profile-bg-container{display:flex;justify-content:space-between;padding:10px 10px;margin-top:30px;margin-bottom:0px;}
+.kis-account-profile-container{display:flex;align-items:center;}
+.kis-account-profile-img-div{width: 120px;height: 120px;flex-shrink: 0;}
+.kis-account-profile-img{border-radius: 100%;height:100%;width:100%;}
+.kis-account-profile-text-div{display:flex;flex-direction:column;margin-left:25px;}
+.kis-account-profile-name{color: var(--000000, #000);font-family: Montserrat;font-size: 20px;font-style: normal;font-weight: 500;line-height: normal;margin-bottom:10px;}
+.kis-account-profile-college-name{color: var(--000000, #000);font-family: Montserrat;font-size: 14px;font-style: normal;font-weight: 500;line-height: normal;margin-top: -6px;margin-bottom:7px;}
+.kis-account-profile-mail-div{display:flex;align-items:center;margin-top:0px;}
+.kis-account-profile-mail{color: var(--333333, #333);font-family: Montserrat;font-size: 16px;font-style: normal;font-weight: 500;line-height: 200%;opacity: 0.5;margin-left: 8px;margin-bottom:0px;}
+.kis-account-password-btn{height: 45px;width: 186px;border-radius: 100px;border: 1px solid #ff5e3a;background: transparent;flex-shrink: 0;color: #ff5e3a;font-weight: 600;}
+.kis-account-delete-heading{color: var(--000000, #000);font-family: Montserrat;font-size: 24px;font-style: normal;font-weight: 500;line-height: normal;}
+.kis-account-delete-description{color: var(--333333, #333);font-family: Montserrat;font-size: 14px;font-style: normal;font-weight: 400;line-height: 145%;margin-bottom:30px;margin-top:30px;}
+.kis-account-delete-btn{height: 45px;width: 200px;border-width: 0px;background-color: #FF5E3A;border-radius: 100px;color: #ffff;font-weight: 500;margin-top:30px}
+.kis-account-change-password-div{display:flex;flex-direction:column;margin-bottom:15px;}
+.kis-account-input-text{color: var(--a-3-a-3-a-3, #A3A3A3);font-family: Montserrat;font-size: 14px;font-style: normal;font-weight: 600;line-height: normal;margin-bottom:0px;}
+.kis-account-input-fields{width: 365px;height: 40px;flex-shrink: 0;border-radius: 5px;border: 1px solid var(--e-4-e-4-e-4, #E4E4E4);background: #FFF;color: var(--333333, #333);font-family: Montserrat;font-size: 16px;font-style: normal;font-weight: 500;line-height: normal;}
+.kis-account-change-password-instructions{color: var(--a-3-a-3-a-3, #A3A3A3);font-family: Montserrat;font-size: 14px;font-style: normal;font-weight: 400;line-height: 145%;width:365px;}
+.kis-account-delete-btn-div{width:100%;display:flex;align-items:center;justify-content: center;margin-top: 24px;}
+.kis-account-edit-btn{height: 27px;width: 63px;border-radius: 100px;border: 1px solid #ff5e3a;background: transparent;flex-shrink: 0;color: #ff5e3a;font-weight: 600;font-size: 14px;margin-left:40px;}
+.kis-account-pop-img-div{display:flex;align-items:center;justify-content: center;margin-bottom: 30px;height:auto;}
+.popup-profile-img{position: absolute;bottom: 31px;left: 370px }
+.pencil-icons{height: 13px;width: 13px;margin-bottom: 3px;margin-left: 3px;}
+.kis-fb-twitter-bg-container{display:flex;align-items:center;height: 50px;width: 80%;border: 1px solid #BDBDBD;border-radius: 7px;margin-bottom:20px;}
+.kis-fb-twitter-div{height:100%;width:auto;border-right: 1px solid #BDBDBD;height: 100%;display: flex;align-items: center;padding: 15px;}
+.facebook-input{height:100%;width:100%;color: #000;font-family: Montserrat;font-size: 14px;font-style: normal;font-weight: 500;line-height: normal;border-width:0px;padding:15px 10px;outline:none;border-radius:7px;}
+.kis-account-delete-div{display:flex;align-items:center;margin-top:100px;}
+.delete-icons{background-color: transparent;border-width: 0px;margin-bottom: 11px;margin-left: 2px }
+.kis-account-textarea-fields{width: 90%;flex-shrink: 0;border: 1px solid #A3ADAF;color: #000;font-family: Inter;font-size: 16px;font-weight: 500;padding: 10px 20px;border-radius: 8px;line-height: 1.5;}
+.kis-delete-pop-bg-container{width:100%;height:auto;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:20px 28px;}
+.kis-delete-pop-heading{color: var(--000000, #000);text-align: center;font-family: Montserrat;font-size: 24px;font-style: normal;font-weight: 600;line-height: normal;text-transform: capitalize;margin-top:20px;}
+.kis-delete-pop-text{color: var(--333333, #333);text-align: center;font-family: Montserrat;font-size: 16px;font-style: normal;font-weight: 500;line-height: 145%;text-transform: uppercase;margin-top:20px;}
+.kis-delete-pop-yes-btn{width: 133px;height: 43px;border-width:0px;border-radius: 20px;background-color: #FF5E3A;font-family: inherit;color: #fff;font-weight: 600;font-size: 18px;margin-right: 20px;}
+.kis-delete-pop-no-btn{width: 133px;height: 43px;border:1px solid #FF5E3A;border-radius: 20px;background-color: transparent;font-family: inherit;color: #FF5E3A;font-weight: 600;font-size: 18px;margin-left: 20px;}
+
+
+/*.................kis_create_team..................*/
+.kis-label-back-icon-div{display:flex;align-items:center;}
+.kis-label-back-icon-div p{color: #0A0A1F;font-family: Montserrat;font-size: 16px;font-style: normal;font-weight: 500;line-height: normal;letter-spacing: 0.32px;margin-left: 7px;margin-bottom: 1px;}
+.kis-label-main-heading{color: #0A0A1F;font-family: Montserrat;font-size: 16px;font-style: normal;font-weight: 700;line-height: normal;letter-spacing: 0.32px;margin-top:20px;}
+.kis-label-form{margin-top:30px;}
+.kis-label-input-bg-container{display:flex;flex-direction:column;margin-bottom:25px;height:auto;}
+.kis-label-input-heading{color: #494747;font-family: inherit;font-size: 14px;font-style: normal;font-weight: 400;line-height: normal;margin-bottom:0px}
+.kis-label-input-fields{width: 100%;height: 44px;flex-shrink: 0;border:1px solid #dadde0;color: #000;font-family: Inter;font-size: 14px;font-style: normal;font-weight: 500;line-height: normal;padding:10px;border-radius:8px;display:flex;align-items;center;}
+.kis-label-textarea-fields{width: 100%;flex-shrink: 0;border:1px solid #A3ADAF;color: #000;font-family: Inter;font-size: 14px;font-style: normal;font-weight: 500;line-height: normal;padding:10px 20px;border-radius:8px;}
+.kis-label-btn{height: 40px;width: 30%;margin-top: 22px;margin-bottom: 20px;background-color: #FF5E3A;border-width: 0px;border-radius: 100px;color: #fff;font-size: 17px;font-weight: 600;}
+.kis-label-upload-text{margin-left: 10px;margin-top: 10px;color: #000000;font-size: 12px;font-style: normal;font-weight: 500;line-height: 120%;letter-spacing: 0.3px;}
+.kis-content-empty-container{height:72vh;display:flex;flex-direction:column;align-items:center;justify-content:center;}
+.kis-content-empty-text{color: var(--Dark-Mode, #343333);text-align: center;font-family: Inter;font-size: 18px;font-style: normal;font-weight: 400;line-height: 167%;margin-top:20px;}
+/*.................kis_create_team..................*/
+
+
+/*..............kis invite..............*/
+.kis-invite-navbar{height:73px;width:100%;background:#fff;margin-bottom:20px;padding:15px 40px;box-shadow: 10px 10px 10px #333;display:flex;justify-content:space-between;align-items:center;}
+.kis-invite-navbar-btn{height: 37px;width: 150px;border-width: 0px;background: #f08b6b;border-radius: 20px;color: #fff;font-family: inherit;font-weight: 600;font-size: 18px;letter-spacing: 0.9px;}
+.kis-institute-invite-img-div{width:100%;height:auto;opacity:0.5;margin-top:-138px;}
+.kis-institute-invite-top-container{display:flex;flex-direction:column;align-items:center;margin-top:-90px;}
+.kis-institute-invite-top-container h1{font-family: 'Gotham Black', sans-serif;font-weight: 900;font-size: 50px;color: #037e6e;margin-bottom:15px;}
+.kis-institute-invite-top-container h3{font-family: 'Gotham Black', sans-serif;font-weight: 500;font-size: 21px;margin-bottom:15px;}
+.kis-institute-invite-top-container p{font-family: 'Gotham Black', sans-serif;font-weight: 500;font-size: 20px;margin-bottom:40px;text-align:center;}
+.kis-institute-invite-container{height: 100%;width: 100%;display: flex;flex-direction:column;align-items: center;justify-content: center;}
+.kis-institute-invite-logo-div{width:100%;height:auto;}
+.kis-institute-invite-sponsor-name{font-family: 'Inter';font-weight: 600;font-size: 20px;margin-left: 80px;letter-spacing: 0.4px;margin-top:25px;text-align:start;}
+.kis-institute-invite-text-container{padding-left: 25px;}
+.kis-institute-invite-text-container h1{font-family: 'Inter';font-weight: 600;font-size: 22px;letter-spacing: 0.4px;color: #f42a68;margin-top: 20px;margin-bottom: 20px;}
+.kis-institute-invite-text-container p{font-family: 'Montserrat', sans-serif; font-weight: 400; font-size: 15px;letter-spacing: 0.4px;line-height: 1.2;color: black;}
+.kis-institute-invite-follow-text{font-family: 'Inter';font-weight: 600;font-size: 16px;text-align:center;}
+.kis-institute-invite-follow-text a{color: #FF5E3A;text-decoration: none;}
+.kis-institute-invite-mobile-view-img-div{width:100%;height:auto;}
+.kis-institute-invite-footer-container{height: auto;width: 100%;margin-top: 100px;padding: 10px 20px;border-top:1px solid #ede6e6;}
+
+.kis-institute-invite-info-main-container{width: 90%; height: auto; background: #ede6e6; padding: 16px 100px; margin-top: 50px; box-shadow: 1px 6px 10px 19px #15080840; margin-left: 100px;}
+.kis-institute-invite-info-questions-div{display:flex;flex-direction:column;margin-top:30px;border-right:dotted;padding-right:20px;}
+
+.questions-active{border-radius: 6px;background: #ff5e3a40;color:#ff5e3ac7;font-weight:600;}
+
+.kis-institute-invite-info-questions-div p{font-family: 'Inter';width:auto;font-size: 19px;margin-bottom: 13px;font-weight: 600;cursor: pointer;padding-left: 14px;display:flex;align-items:center;}
+.kis-institute-invite-info-answers-div{width:100%;height:auto;padding:10px;padding-left: 30px; font-family: Inter; font-size: 18px;margin-top: 20px;}
+.kis-institute-invite-info-ans p{color: #343333;font-feature-settings: 'liga' off;font-family: Inter;font-size: 16px;font-style: normal;font-weight: 400;line-height: 28px;}
+
+@media (max-width:767px){
+    .kis-invite-navbar{padding:10px 10px;}
+    .kis-invite-navbar-btn{width: 97px;height: 33px;font-size: 15px;}
+    .kis-institute-invite-info-main-container{padding: 10px 11px; margin-left: 4px;width: 100%;}
+    .kis-institute-invite-img-div{margin-top:45px;}
+    .kis-institute-invite-text-container{padding-left:0px;}
+    .kis-institute-invite-top-container{margin-top: 0px; text-align: center; display: flex;flex-direction: column;  margin-left: 0px;}
+    .kis-institute-invite-sponsor-name{margin-left: 0px;text-align: center;margin-bottom: 20px;margin-top:0px;}
+    .kis-institute-invite-follow-text{margin-left:0px;margin-top:15px;}
+    .kis-institute-invite-mobile-view-img-div{margin-bottom:20px;}
+    .kis-institute-invite-info-answers-div{border-top: dotted;padding-top: 34px;border-left:0px;padding-left:0px;}
+    .kis-institute-invite-container {width: 85%;}
+    .kis-institute-invite-logo-div{margin-bottom: 30px;}
+    .kis-institute-invite-info-questions-div {border-right:0px;padding-inline-start: 0px;}
+}
+/*..............kis invite..............*/
+
+
+/*.........kis guidelines...........*/
+.kis-guide-banner-container{height:auto;width:100%;padding: 80px 130px;display:flex;align-items:center;justify-content:space-between;}
+.kis-guide-logo{width: 300px;height: 200px;margin-bottom: 30px;}
+.kis-guide-banner-heading{color: #FFC700;font-feature-settings: 'liga' off;font-family: inherit;font-size: 48px;font-style: normal;font-weight: 700;line-height: 60px;letter-spacing: -1.2px;}
+.kis-guide-text-container{background: #f0f6f2;width:100%;height:auto;padding:70px 150px;}
+.kis-guide-text-container p{color: #343333;text-align: center;font-feature-settings: 'liga' off;font-family: Inter;font-size: 18px;font-style: normal;font-weight: 500;line-height: 28px;}
+.kis-guide-text-container h3{color: #343333;text-align: center;font-feature-settings: 'liga' off;font-family: Inter;font-size: 24px;font-style: normal;font-weight: 500;line-height: 28px;}
+.kis-guide-info-container{width:100%;height:auto;background:#fff;padding:40px 70px;}
+.kis-institute-invite-info-questions-div h1{color: #343333;font-family: Inter;font-size: 14px;font-style: normal;font-weight: 600;line-height: 24px;letter-spacing: -0.084px;margin-left: 20px;margin-bottom: 20px;text-decoration: underline;}
+.kis-institute-invite-info-answers-div h1{color: var(--ff-5-e-3-a, #FF5E3A);font-family: Inter;font-size: 28px;font-style: normal;font-weight: 600;line-height: 24px;letter-spacing: -0.168px;margin-bottom: 20px;}
+
+@media (max-width:767px){
+    .kis-guide-banner-container{padding: 30px 10px;text-align: center;flex-direction:column}
+    .kis-guide-logo{width: 180px;height: 130px;margin-bottom: 15px;margin-left:-45px;}
+    .kis-guide-banner-heading {font-size: 32px;text-align: center;}
+    .kis-guide-text-container{padding:50px 20px;}
+    .kis-guide-info-container{padding: 10px 20px;}
+    .kis-institute-invite-info-answers-div h1{font-size:21px;}
+
+}
+
+/*..........kis institute welcome............*/
+
+.kis-institute-welcome-bg-container{height:auto;width:100%;background: var(--Linear, linear-gradient(90deg, #040607 0.04%, #152627 50.73%, #040607 99.87%));}
+.kis-institute-welcome-text-container{margin-top:50px;padding-left:60px;}
+.kis-institute-welcome-text-container h1{font-family: 'Inter';font-weight: 500;font-size: 20px;color: #9d9696;margin-bottom: 30px;}
+.kis-institute-welcome-text-container h3{font-family: 'Inter';font-weight: 600;font-size: 20px;color: #a1b9a7;line-height: 1.4;}
+.kis-institute-welcome-text-container p{font-family: 'Lato';font-weight: 400;color: #fff;letter-spacing: 0.3px;line-height: 1.2;margin-bottom: 30px;}
+.kis-institute-welcome-right-bg-container{height: 100%;width: 100%;display: flex;justify-content: center;align-items: center;}
+.kis-institute-welcome-right-bg-container button{height: 40px;width: 150px;background-color: #FF5E3A;border-width: 0px;border-radius: 100px;color: #fff;font-size: 18px;font-weight: 600;}
+/*..........kis institute welcome............*/
+
+/*......kis-team-modal......*/
+.kis-institute-team-dashboard-modal-container{padding-left: 20px;padding-top: 15px;}
+.kis-institute-team-dashboard-modal-container h1{font-family: 'Inter';font-size: 20px;font-weight: 500;color: #000;margin-bottom: 10px;}
+.kis-institute-team-dashboard-modal-container p{font-family: 'Inter';font-size: 15px;color: #616161;line-height: 1.3;margin-bottom:25px;}
+.kis-institute-team-dashboard-modal-btn-container{display:flex;justify-content:center;width:100%;text-decoration:none;}
+.kis-institute-team-dashboard-modal-btn-container button{height: 40px;width: auto;margin-top: 25px;margin-bottom: 30px;border: 0px;background: #FF5722;color: #fff;font-weight: 600;font-size: 22px;border-radius: 20px;text-decoration:none;}
+.kis-institute-team-dashboard-modal-btn-container button:hover{text-decoration:none;cursor: pointer}
+
+/*.........kis do's ...........*/
+.kis-do-dont-bg-container{height:auto;width:100%;padding: 20px 100px;}
+.kis-do-dont-bg-container h1{font-family: 'Inter';color: #ff5e3a;font-size: 30px;font-weight: 600;margin-bottom: 45px;text-decoration: underline;margin-top:50px;}
+.kis-do-container{margin-left:0px;}
+.kis-do-container h2{font-family: 'Inter';color: #4dadcd;font-size: 20px;font-weight: 500;margin-bottom: 1px;margin-top:25px;}
+.kis-do-container span{font-family: 'Inter';color: #000;font-size: 20px;font-weight: 400;margin-top: 0px;}
+
+/*........kis-account-add-members.........*/
+.kis-account-add-members-container{margin-top:40px;margin-bottom:40px;width:100%;height:auto;}
+.kis-account-add-members-heading-container{display:flex;align-items:center;justify-content:space-between;border-bottom: 1px solid #BDBDBD;margin-bottom:20px;}
+.kis-account-add-members-heading-container h1{font-family: 'Inter';font-size: 20px;font-weight: 500;color: #000;}
+.kis-account-input-bg-container{display:flex;flex-direction:column;margin-bottom:25px;}
+.kis-account-input-heading{color: var(--a-3-a-3-a-3, #A3A3A3);font-family: inherit;font-size: 14px;font-style: normal;font-weight: 400;line-height: normal;margin-bottom:0px}
+.kis-account-input-fields{width: 100%;height: 44px;flex-shrink: 0;border:1px solid #A3ADAF;color: #000;font-family: Inter;font-size: 14px;font-style: normal;font-weight: 500;line-height: normal;padding:10px;border-radius:8px;}
+.kis-account-textarea-fields{width: 100%;flex-shrink: 0;border:1px solid #A3ADAF;color: #000;font-family: Inter;font-size: 14px;font-style: normal;font-weight: 500;line-height: normal;padding:10px 20px;border-radius:8px;}
+.kis-account-form-btn{height: 35px;width: 150px;background-color: #FF5E3A;border-width: 0px;border-radius: 100px;color: #fff;font-size: 18px;font-weight: 600;margin-bottom:40px;}
+
+/*............privacy-text-page css...................*/
+.kis-privacy-text-page-main-bg-container{min-height: 100vh;}
+.kis-privacy-text-page-bg-container{min-height: 85vh;background-color: transparent;border-radius: 20px;padding: 20px;}
+.kis-privacy-text-page-main-bg-container h1{font-family: 'Inter';color: #ff5e3a;font-size: 30px;font-weight: 600;margin-bottom: 7px;margin-left:19px;text-decoration: underline;}
+.kis-privacy-text-page-container h2{font-family: 'Inter';color: #4dadcd;font-size: 22px;font-weight: 400;margin-bottom: 3px;}
+.kis-privacy-text-page-container p{font-family: inherit;color: #000;font-size: 16px;font-weight: 400;line-height: 19px;}
+.kis-privacy-text-page-container hr{border: 1px dashed #fff;}
+/*............privacy-text-page css...................*/
+
+.kis-pending-btn{height: 30px;text-decoration: none;width: 130px;background:yellow;border-width:0px;color:black;border-radius: 100px;font-family: 'Inter';font-weight: 500;font-size: 17px;}
+.kis-approved-btn{height: 30px;text-decoration: none;width: 130px;background:green;border-width:0px;color:#fff;border-radius: 100px;font-family: 'Inter';font-weight: 500;font-size: 17px;}
+
+.kis-label-form{margin-top:30px;}
+.kis-label-input-bg-container{display:flex;flex-direction:column;margin-bottom:25px;}
+.kis-label-input-heading{color: var(--a-3-a-3-a-3, #A3A3A3);font-family: inherit;font-size: 14px;font-style: normal;font-weight: 400;line-height: normal;margin-bottom:0px}
+.kis-label-input-fields{width: 100%;height: 44px;flex-shrink: 0;border:1px solid #A3ADAF;color: #000;font-family: Inter;font-size: 14px;font-style: normal;font-weight: 500;line-height: normal;padding:10px;border-radius:8px;}
+.kis-label-textarea-fields{width: 100%;flex-shrink: 0;border:1px solid #A3ADAF;color: #000;font-family: Inter;font-size: 14px;font-style: normal;font-weight: 500;line-height: normal;padding:10px 20px;border-radius:8px;}
+.kis-label-btn{height: 60px;width: 40%;margin-left: 15px;margin-top: 40px;margin-bottom: 30px;background-color: #FF5E3A;border-width: 0px;border-radius: 100px;color: #fff;font-size: 20px;font-weight: 600;}
+.kis-label-upload-text{margin-left: 10px;margin-top: 10px;color: #000000;font-size: 16px;font-style: normal;font-weight: 500;line-height: 120%;letter-spacing: 0.3px;}
+
+.kis-delete-pop-bg-container{width:100%;height:auto;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:20px 28px;}
+.kis-delete-pop-heading{color: var(--000000, #000);text-align: center;font-family: Montserrat;font-size: 24px;font-style: normal;font-weight: 600;line-height: normal;text-transform: capitalize;margin-top:20px;}
+.kis-delete-pop-text{color: var(--333333, #333);text-align: center;font-family: Montserrat;font-size: 16px;font-style: normal;font-weight: 500;line-height: 145%;text-transform: uppercase;margin-top:20px;}
+.kis-delete-pop-yes-btn{width: 133px;height: 43px;border-width:0px;border-radius: 20px;background-color: #FF5E3A;font-family: inherit;color: #fff;font-weight: 600;font-size: 18px;margin-right: 20px;}
+.kis-delete-pop-no-btn{width: 133px;height: 43px;border:1px solid #FF5E3A;border-radius: 20px;background-color: transparent;font-family: inherit;color: #FF5E3A;font-weight: 600;font-size: 18px;margin-left: 20px;}
+
+.kis_member_cards{width: 90%;display: flex;flex-direction: column;align-items: center;padding: 15px;border: 1px solid gray;border-radius: 20px;margin-bottom: 20px;}
+.kis-members-img-div{width: 150px;height: 150px;margin-bottom: 16px;}
+.kis-members-img{height: 100%;width: 100%;border-radius: 100%;}
+.kis-edit-icon-div{display: flex;align-items: center;width: 100%;margin-top: 15px;margin-bottom: 15px;}
+.kis-card-texts{font-size: 16px;font-family: 'Inter';font-weight: 400;letter-spacing: 0.3px;color: black;}
+.kis-card-titles{font-size: 20px;font-weight: 600;font-family: 'Inter';color: black;letter-spacing: 0.4px;}
+
+
+/*.........kis jury........*/
+.kis-jury-body{margin:0px;background:var(--Linear, linear-gradient(90deg, #040607 0.04%, #152627 50.73%, #040607 99.87%));height:auto;width:100%;}
+.kis-jury-banner-bg-container{background-image: url("https://res.cloudinary.com/dkbxi5qts/image/upload/v1660153719/movies%20prime%20app/login_backdrop_mwiy7z.svg");min-height:380px;position: relative;background-position: center center;background-size: cover;background-attachment: inherit;background-color: #1b1b1b;background-repeat: no-repeat;z-index: 1;}
+.kis-jury-navbar{height:75px;width:100%;padding:15px 60px;display:flex;justify-content:space-between;align-items:center;}
+.kis-jury-search-form{display:flex;align-items:center;}
+.kis-jury-search-input{height: 40px;width: 270px;border-radius: 10px;background: #fff;border: 1px solid #fff;color: #fff;margin-right: 5px;display:flex;align-items:center;}
+.kis-jury-search-input-active{display:none;}
+.kis-jury-input{background:transparent;width:100%;height:100%;border-width:0px;padding: 0px 15px;font-family: 'Inter';font-weight: 500;letter-spacing: 0.4px;}
+.kis-jury-input:focus {outline:none;}
+.kis-jury-input-icon-div{background: #F4511E;height: 100%;width: 53px;display: flex;justify-content: center;align-items: center;border-top-right-radius: 10px;border-bottom-right-radius: 10px;}
+.kis-jury-search-icon-div{background: #ffffff36;height: 40px;width: 40px;display: flex;align-items: center;justify-content: center;border-radius: 100px;}
+.kis-jury-banner-text-container{min-height:200px;width:100%;display:flex;align-items:center;justify-content:center;}
+.kis-jury-banner-text{color: #FFC700;font-size: 42px;font-weight: 900;margin-bottom: 0;text-transform: uppercase;text-align: center;font-family: antonio,sans-serif;line-height:48px;}
+.kis-jury-banner-bg-text{position: absolute;font-size: 70px;text-transform: uppercase;-webkit-text-stroke: 1px #bcbcbc;z-index: -1;opacity: .5;color: #00000042;line-height: 70px;margin: 0;letter-spacing: 5px;font-weight: 700;}
+.kis-jury-content-bg-container{height:auto;width:100%;display: flex;flex-direction:column;justify-content: center;padding:80px 100px;}
+.kis-jury-content-header-container{width:100%;display:flex;justify-content:space-between;align-items:center;margin-bottom: 40px;}
+.kis-jury-content-main-heading{font-family: antonio,sans-serif;color: #FFF;font-size: 30px;font-weight: 600;letter-spacing: 0.4px;}
+.kis-jury-select{width: 150px;height: 40px;background: transparent;border: 1px solid gray;border-radius: 10px;padding: 1px 7px;color: #fff;margin-left: 15px;}
+.kis-jury-select option{color:#000;}
+.kis-jury-blue-vector-img{position:absolute;left:-50px;width:464px;height:464px;}
+.kis-jury-yellow-vector-img{position:absolute;bottom:-900px;right:0;width:495px;height:495px;}
+
